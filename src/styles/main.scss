@@ -11,6 +11,7 @@ body {
 .calendar {
   display: flex;
   flex-wrap: wrap;
+  box-sizing: border-box;
   gap: $gap;
   padding: $padding;
   width: calc(
