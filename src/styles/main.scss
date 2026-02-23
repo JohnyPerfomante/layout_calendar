@@ -67,7 +67,7 @@ $start-days: (
 );
 
 @each $day, $index in $start-days {
-  .calendar--start-#{$day} {
+  .calendar--start-day#{$day} {
     .calendar__day:first-child {
       margin-left: calc((#{$cell-size} + #{$gap}) * #{$index});
     }
